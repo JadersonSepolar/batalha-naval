@@ -12,13 +12,21 @@ for (int i  = 0; i < 10; i++){
             tabuleiro [i][j] = 0;
     }
 }
-// Navio na horizontal
+// Navio na horizontal linha 3 e 8
     tabuleiro[2][3] = 3;
     tabuleiro[2][4] = 3;
     tabuleiro[2][5] = 3;
+    tabuleiro[5][5] = 3;
+    tabuleiro[5][6] = 3;
     tabuleiro[5][7] = 3;
-    tabuleiro[6][7] = 3;
-    tabuleiro[7][7] = 3;
+
+// Navio na diagonal
+    tabuleiro[3][0] = 4;
+    tabuleiro[4][1] = 4;
+    tabuleiro[5][2] = 4;
+    tabuleiro[7][3] = 5;
+    tabuleiro[8][4] = 5;
+    tabuleiro[9][5] = 5;
 
 // Imprimindo o cabeçalho horizontal
     printf("   ");
